@@ -1,0 +1,23 @@
+body{
+    background-color:rgb(252, 252, 252);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(15, 14, 14);
+  }
+  .container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+/* Centered text */
+.centered {
+    color: rgb(6, 6, 6);
+    font-size: 100%;
+    /* font-style: italic; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
